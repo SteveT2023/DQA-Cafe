@@ -1,0 +1,9 @@
+column_name,null_count,blank_count,whitespace_count
+transaction_id,0,0,0
+item,0,333,0
+quantity,0,138,0
+price_per_unit,0,179,0
+total_spent,0,173,0
+payment_method,0,2579,0
+location,0,3265,0
+transaction_date,0,159,0
