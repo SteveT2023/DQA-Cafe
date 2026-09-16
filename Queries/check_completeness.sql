@@ -43,8 +43,6 @@ CALL check_completeness('transaction_date');
 SELECT *
 FROM result_completeness;
 
-TRUNCATE result_completeness;
-
 -- Fix
 UPDATE raw_cafe
 SET quantity = NULL
