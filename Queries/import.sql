@@ -15,6 +15,7 @@ CREATE TABLE raw_cafe
 
 -- Import the dataset into the table.
 SET GLOBAL local_infile = 1;
+
 LOAD DATA LOCAL INFILE 'C:path/to/my/file/raw_cafe.csv'
 INTO TABLE cafe.raw_cafe
 FIELDS TERMINATED BY ',' 
