@@ -16,10 +16,17 @@ Uniqueness,Raw_cafe,Payment_Method,None,0,Clean
 Uniqueness,Raw_cafe,Location,None,0,Clean
 Uniqueness,Raw_cafe,Transaction_Date,None,0,Clean
 Consistency,Raw_cafe,Transaction_ID,None,0,Clean
-Consistency,Raw_cafe,Item,Inconsistency value,,
-Consistency,Raw_cafe,Quantity,,,
-Consistency,Raw_cafe,Price_Per_Unit,,,
-Consistency,Raw_cafe,Total_Spent,,,
-Consistency,Raw_cafe,Payment_Method,,,
-Consistency,Raw_cafe,Location,,,
-Consistency,Raw_cafe,Transaction_Date,,,
+Consistency,Raw_cafe,Item,Inconsistency value,344,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Item,Inconsistency value,292,"Invalid value ""ERROR"""
+Consistency,Raw_cafe,Quantity,Inconsistency value,171,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Quantity,Inconsistency value,170,"Invalid value ""ERROR"""
+Consistency,Raw_cafe,Price_Per_Unit,Inconsistency value,164,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Price_Per_Unit,Inconsistency value,190,"Invalid value ""ERROR"""
+Consistency,Raw_cafe,Total_Spent,Inconsistency value,165,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Total_Spent,Inconsistency value,164,"Invalid value ""ERROR"""
+Consistency,Raw_cafe,Payment_Method,Inconsistency value,293,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Payment_Method,Inconsistency value,306,"Invalid value ""ERROR"""
+Consistency,Raw_cafe,Location,Inconsistency value,338,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Location,Inconsistency value,358,"Invalid value ""ERROR"""
+Consistency,Raw_cafe,Transaction_Date,Inconsistency value,159,"Invalid value ""UNKNOWN"""
+Consistency,Raw_cafe,Transaction_Date,Inconsistency value,142,"Invalid value ""ERROR"""
