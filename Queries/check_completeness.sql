@@ -42,3 +42,30 @@ CALL check_completeness('transaction_date');
 -- Display result
 SELECT *
 FROM result_completeness;
+
+TRUNCATE result_completeness;
+
+-- Fix
+UPDATE raw_cafe
+SET quantity = NULL
+WHERE quantity = "";
+
+UPDATE raw_cafe
+SET price_per_unit = NULL
+WHERE price_per_unit = "";
+
+UPDATE raw_cafe
+SET total_spent = NULL
+WHERE total_spent = "";
+
+UPDATE raw_cafe
+SET payment_method = NULL
+WHERE payment_method = "";
+
+UPDATE raw_cafe
+SET location = NULL
+WHERE location = "";
+
+UPDATE raw_cafe
+SET transaction_date = NULL
+WHERE transaction_date = "";
