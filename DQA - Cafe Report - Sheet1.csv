@@ -1,0 +1,25 @@
+DQA Dimension,Table Name,Column Name,Error Type,Count,Description
+Completeness,Raw_cafe,Transaction_ID,None,0,Clean
+Completeness,Raw_cafe,Item,Blank value,333,Blanks were found in this column
+Completeness,Raw_cafe,Quantity,Blank value,138,Blanks were found in this column
+Completeness,Raw_cafe,Price_Per_Unit,Blank value,179,Blanks were found in this column
+Completeness,Raw_cafe,Total_Spent,Blank value,173,Blanks were found in this column
+Completeness,Raw_cafe,Payment_Method,Blank value,2579,Blanks were found in this column
+Completeness,Raw_cafe,Location,Blank value,3265,Blanks were found in this column
+Completeness,Raw_cafe,Transaction_Date,Blank value,159,Blanks were found in this column
+Uniqueness,Raw_cafe,Transaction_ID,None,0,Clean
+Uniqueness,Raw_cafe,Item,None,0,Clean
+Uniqueness,Raw_cafe,Quantity,None,0,Clean
+Uniqueness,Raw_cafe,Price_Per_Unit,None,0,Clean
+Uniqueness,Raw_cafe,Total_Spent,None,0,Clean
+Uniqueness,Raw_cafe,Payment_Method,None,0,Clean
+Uniqueness,Raw_cafe,Location,None,0,Clean
+Uniqueness,Raw_cafe,Transaction_Date,None,0,Clean
+Consistency,Raw_cafe,Transaction_ID,None,0,Clean
+Consistency,Raw_cafe,Item,Inconsistency value,,
+Consistency,Raw_cafe,Quantity,,,
+Consistency,Raw_cafe,Price_Per_Unit,,,
+Consistency,Raw_cafe,Total_Spent,,,
+Consistency,Raw_cafe,Payment_Method,,,
+Consistency,Raw_cafe,Location,,,
+Consistency,Raw_cafe,Transaction_Date,,,
