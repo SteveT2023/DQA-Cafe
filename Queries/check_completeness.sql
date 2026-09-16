@@ -45,6 +45,10 @@ FROM result_completeness;
 
 -- Fix
 UPDATE raw_cafe
+SET item = NULL
+WHERE item = "";
+
+UPDATE raw_cafe
 SET quantity = NULL
 WHERE quantity = "";
 
