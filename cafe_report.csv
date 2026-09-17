@@ -38,3 +38,11 @@ Accuracy,Raw_cafe,Total_Spent,Imputed value,462,Imputed missing value
 Accuracy,Raw_cafe,Payment_Method,None,0,Clean
 Accuracy,Raw_cafe,Location,None,0,Clean
 Accuracy,Raw_cafe,Transaction_Date,None,0,Clean
+Validity,Raw_cafe,Transaction_ID,None,0,Clean
+Validity,Raw_cafe,Item,None,0,Clean
+Validity,Raw_cafe,Quantity,Incorrect data type,1,"Suppose to be INT, not VARCHAR"
+Validity,Raw_cafe,Price_Per_Unit,Incorrect data type,1,"Suppose to be DECIMAL, not VARCHAR"
+Validity,Raw_cafe,Total_Spent,Incorrect data type,1,"Suppose to be DECIMAL, not VARCHAR"
+Validity,Raw_cafe,Payment_Method,None,0,Clean
+Validity,Raw_cafe,Location,None,0,Clean
+Validity,Raw_cafe,Transaction_Date,Incorrect data type,1,"Suppose to be DATE, not VARCHAR"
