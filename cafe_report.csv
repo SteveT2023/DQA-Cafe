@@ -30,3 +30,11 @@ Consistency,Raw_cafe,Location,Inconsistency value,338,"Invalid value ""UNKNOWN""
 Consistency,Raw_cafe,Location,Inconsistency value,358,"Invalid value ""ERROR"""
 Consistency,Raw_cafe,Transaction_Date,Inconsistency value,159,"Invalid value ""UNKNOWN"""
 Consistency,Raw_cafe,Transaction_Date,Inconsistency value,142,"Invalid value ""ERROR"""
+Accuracy,Raw_cafe,Transaction_ID,None,0,Clean
+Accuracy,Raw_cafe,Item,None,0,Clean
+Accuracy,Raw_cafe,Quantity,Imputed value,441,Imputed missing value
+Accuracy,Raw_cafe,Price_Per_Unit,Imputed value,495,Imputed missing value
+Accuracy,Raw_cafe,Total_Spent,Imputed value,462,Imputed missing value
+Accuracy,Raw_cafe,Payment_Method,None,0,Clean
+Accuracy,Raw_cafe,Location,None,0,Clean
+Accuracy,Raw_cafe,Transaction_Date,None,0,Clean
